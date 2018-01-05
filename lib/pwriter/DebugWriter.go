@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"lib"
-	"lib/errs"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib"
 )
 
 //Ensure DebugConsumer implements StateConsumer

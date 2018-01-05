@@ -7,10 +7,10 @@ import (
 	"os"
 	"syscall"
 
-	"lib"
-	"lib/errs"
-	"lib/pfiles"
-	"lib/pmaps"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib"
+	"github.com/tarndt/pmigrate/lib/pfiles"
+	"github.com/tarndt/pmigrate/lib/pmaps"
 )
 
 const formatVersion = uint16(1)

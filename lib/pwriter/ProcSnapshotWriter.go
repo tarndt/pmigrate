@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"lib"
-	"lib/errs"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib"
 )
 
 const formatVersion = uint16(1)

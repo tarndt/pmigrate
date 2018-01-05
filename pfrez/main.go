@@ -9,11 +9,11 @@ import (
 	"os"
 	"time"
 
-	"lib"
-	"lib/iotimeout"
-	"lib/preader"
-	"lib/pwriter"
-	"lib/transpenc"
+	"github.com/tarndt/pmigrate/lib"
+	"github.com/tarndt/pmigrate/lib/iotimeout"
+	"github.com/tarndt/pmigrate/lib/preader"
+	"github.com/tarndt/pmigrate/lib/pwriter"
+	"github.com/tarndt/pmigrate/lib/transpenc"
 )
 
 func main() {

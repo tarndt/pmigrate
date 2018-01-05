@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"syscall"
 
-	"lib/pfiles"
-	"lib/pmaps"
+	"github.com/tarndt/pmigrate/lib/pfiles"
+	"github.com/tarndt/pmigrate/lib/pmaps"
 )
 
 type MemSpan struct {

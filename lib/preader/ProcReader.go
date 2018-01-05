@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"unicode"
 
-	"lib"
-	"lib/errs"
-	"lib/pfiles"
-	"lib/pmaps"
-	"lib/ptrace"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib"
+	"github.com/tarndt/pmigrate/lib/pfiles"
+	"github.com/tarndt/pmigrate/lib/pmaps"
+	"github.com/tarndt/pmigrate/lib/ptrace"
 )
 
 //Ensure ProcReader implements StateProvider

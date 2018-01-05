@@ -8,11 +8,11 @@ import (
 	"os/exec"
 	"syscall"
 
-	"lib"
-	"lib/errs"
-	"lib/pfiles"
-	"lib/psupervisor"
-	"lib/ptrace"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib"
+	"github.com/tarndt/pmigrate/lib/pfiles"
+	"github.com/tarndt/pmigrate/lib/psupervisor"
+	"github.com/tarndt/pmigrate/lib/ptrace"
 )
 
 const (

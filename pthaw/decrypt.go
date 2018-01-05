@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"lib/errs"
-	"lib/transpenc"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib/transpenc"
 )
 
 func getSrcDecyptor(srcRdr io.Reader, encParams transpenc.EncryptionParams, keyDir string) (io.Reader, error) {

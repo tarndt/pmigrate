@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"lib/errs"
-	"lib/transpenc"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib/transpenc"
 )
 
 func getDestEncryptor(dstWtr io.Writer, encrypt string, transpEnc *transpenc.TranportEncoding) (io.WriteCloser, error) {
