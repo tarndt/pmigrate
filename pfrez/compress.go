@@ -8,8 +8,8 @@ import (
 
 	"github.com/golang/snappy"
 
-	"lib/errs"
-	"lib/transpenc"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib/transpenc"
 )
 
 type NoopWtrCloser struct {

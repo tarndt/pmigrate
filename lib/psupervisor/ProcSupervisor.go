@@ -5,8 +5,8 @@ import (
 	"io"
 	"syscall"
 
-	"lib/errs"
-	"lib/ptrace"
+	"github.com/tarndt/errs"
+	"github.com/tarndt/pmigrate/lib/ptrace"
 )
 
 /* TODO:

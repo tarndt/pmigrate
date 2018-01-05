@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"lib/errs"
+	"github.com/tarndt/errs"
 )
 
 const selfMap = "/proc/self/maps"

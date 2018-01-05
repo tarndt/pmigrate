@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"lib/preader"
-	"lib/pwriter"
+	"github.com/tarndt/pmigrate/lib/preader"
+	"github.com/tarndt/pmigrate/lib/pwriter"
 )
 
 /* TestIntegration uses the countforever test program to:
